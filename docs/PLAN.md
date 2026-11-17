@@ -1,4 +1,4 @@
-# Vault Chat: build plan
+# Vault Chat: build plan 
 
 "Vault Chat" is a working name. This file covers what we're building, the security promises it makes, the architecture, who on the Agent Office team does what, and the phases.
 
@@ -121,7 +121,7 @@ Each phase is one Orchestrator run: plan, you approve, it runs, you review. Ever
 ### Phase 6: release (optional, needs a release recipe)
 Windows installer build, code-signing guide, `docs/REPRODUCIBLE_BUILD.md`, signed Tauri updater config, server Dockerfile and deploy notes. Opus only, after you accept.
 
-## 6. Before phase 0 (you)
+## 6. Before phase 0 (user)
 
 1. Install **Rust** (rustup, stable MSVC), **Node 22+**, and the **Tauri prerequisites** for Windows (MSVC Build Tools; WebView2 ships with Windows 11).
 2. Make the folder a git repo with one commit. The office's writers need it:
